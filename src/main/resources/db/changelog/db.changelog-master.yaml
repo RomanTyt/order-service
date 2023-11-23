@@ -1,0 +1,11 @@
+databaseChangeLog:
+  #Схема
+  - include:
+      file: db/changelog/schema/create-schema-orders.sql
+  #Таблицы
+  - include:
+      file: db/changelog/changeset/create-table-orders.sql
+  - include:
+      file: db/changelog/changeset/create-table-products.sql
+
+
